@@ -26,7 +26,7 @@ import { PendingBoostClaim } from "types/backTypes";
 import Typography from "./typography/typography";
 import { TEXT_TYPE } from "@constants/typography";
 import Hamburger from "./hamburger";
-import { sortConnectors } from "@utils/sorts";
+import { sortConnectors } from "@utils/connectors";
 
 const Navbar: FunctionComponent = () => {
   const currentNetwork = getCurrentNetwork();
